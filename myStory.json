@@ -1,0 +1,223 @@
+{
+    "Title": "Royce's Midnight Feast",
+    "Credits": "Created by Regina Kim (rejikim@ucsc.edu).",
+    "InitialLocation": "OUTSIDE",
+    "Locations": {
+        "OUTSIDE": {
+            "Body": "You are a rat named Royce. You are currently outside the sewers looking for way inside the ROYAL SUITE's KITCHEN",
+            "Choices": [
+                {
+                    "Text": "Into the Sewers!",
+                    "Target": "SEWERS"
+                }
+            ]
+        },
+        "SEWERS": {
+            "Body": "You enter the sewers... but the path splits in two! Which way do you go?",
+            "Choices": [
+                {
+                    "Text": "Left Pipe",
+                    "Target": "LEFT"
+                },
+                {
+                    "Text": "Right Pipe",
+                    "Target": "RIGHT"
+                }
+            ]
+        },
+        "LEFT": {
+            "Body": "You crawl through the left pipe... and you can faintly smell food chunks... You must be close to the kitchen sink!",
+            "Choices": [
+                {
+                    "Text": "Enter Kitchen Sink",
+                    "Target": "KITCHEN SINK"
+                }
+            ]
+        },
+        "RIGHT": {
+            "Body": "You crawl through the right pipe... Oh no! You were pushed by strong currents and drowned in the pipes.",
+            "Choices": [
+                {
+                    "Text": "Start Again",
+                    "Target": "OUTSIDE"
+                }
+            ]
+        },
+        "KITCHEN SINK": {
+            "Body": "You squeeze through the drain, and find yourself in the KITCHEN SINK. Quickly, you get out of the dirty water and dry yourself.",
+            "Choices": [
+                {
+                    "Text": "Climb down the mop to the KITCHEN FLOOR",
+                    "Target": "KITCHEN FLOOR"
+                }
+            ]
+
+        },
+        "KITCHEN FLOOR": {
+            "Body": "You reach the KITCHEN FLOOR. You remind yourself, you're here to enter the FRIDGE!",
+            "Choices": [
+                {
+                    "Text": "Fry Station",
+                    "Target": "FRY"
+                },
+                {
+                    "Text": "Cold Service",
+                    "Target": "COLD"
+                },
+                {
+                    "Text": "Saute Station",
+                    "Target": "SAUTE"
+                },
+                {
+                    "Text": "Soup Station",
+                    "Target": "SOUP"
+                },
+                {
+                    "Text": "Fridge",
+                    "Target": "FRIDGE"
+                },
+                {
+                    "Text": "Dessert Station",
+                    "Target": "DESSERT"
+                }
+            ]
+        },
+        "FRY": {
+            "Body": "Rachel Carson College, lots of minecraft villager homes.",
+            "Choices": [
+                {
+                    "Text": "Return",
+                    "Target": "KITCHEN FLOOR"
+                },
+                {
+                    "Text": "Grill Station",
+                    "Target": "GRILL"
+                }
+            ]
+        },
+        "COLD": {
+            "Body": "You're now at the Cold Service station. Around you are stocks of salad dressings.",
+            "Choices": [
+                {
+                    "Text": "Return",
+                    "Target": "KITCHEN FLOOR"
+                },
+                {
+                    "Text": "Saute Station",
+                    "Target": "SAUTE"
+                }
+            ]
+        },
+        "SAUTE": {
+            "Body": "You're now at the Saute Station. Around you are left over burnt bits of food.",
+            "Choices": [
+                {
+                    "Text": "Return",
+                    "Target": "KITCHEN FLOOR"
+                },
+                {
+                    "Text": "Soup Station",
+                    "Target": "SOUP"
+                },
+                {
+                    "Text": "Cold Service Station",
+                    "Target": "COLD"
+                }
+            ]
+        },
+        "SOUP": {
+            "Body": "You're at the soup station! (TRY MAKING SOUP!!)",
+            "Choices": [
+                {
+                    "Text": "Return",
+                    "Target": "KITCHEN FLOOR"
+                },
+                {
+                    "Text": "Make your own soup!",
+                    "Target": "MAKESOUP"
+                },
+                {
+                    "Text": "Saute Station",
+                    "Target": "SAUTE"
+                }
+            ]
+        },
+        "FRIDGE": {
+            "Body": "You're now in front of the FRIDGE. Inside, a cornucopia of food awaits.",
+            "Choices": [
+                {
+                    "Text": "Return",
+                    "Target": "KITCHEN FLOOR"
+                },
+                {
+                    "Text": "Unlock",
+                    "Target": "FRIDGE"
+                }
+            ]
+        },
+        "DESSERT": {
+            "Body": "You're now at the Dessert Station. Around you are containers filled with chocolates, cherries, and syrups.",
+            "Choices": [
+                {
+                    "Text": "Return",
+                    "Target": "KITCHEN FLOOR"
+                },
+                {
+                    "Text": "Lick the Frosting",
+                    "Target": "KEY"
+                },
+                {
+                    "Text": "Grill Station",
+                    "Target": "GRILL"
+                }
+            ]
+        },
+        "KEY": {
+            "Body": "You found the key! Maybe you can open the FRIDGE now!",
+            "Choices": [
+                {
+                    "Text": "Return to KITCHEN FLOOR",
+                    "Target": "KITCHEN FLOOR"
+                }
+            ]
+        },
+        "GRILL": {
+            "Body": "You're in front of the GRILL STATION. You can smell bits of lingering charcoal.",
+            "Choices": [
+                {
+                    "Text": "Return",
+                    "Target": "KITCHEN FLOOR"
+                },
+                {
+                    "Text": "Fry Station",
+                    "Target": "FRY"
+                },
+                {
+                    "Text": "Dessert Station",
+                    "Target": "DESSERT"
+                }
+            ]
+        },
+        "Oil": {
+            "Body": "Oh no! You fell into a pot of oil!",
+            "Choices": [
+                {
+                    "Text": "Start Again",
+                    "Target": "OUTSIDE"
+                }
+            ]
+        },
+        "FOOD": {
+            "Body": "You entered the FRIDGE! You look around and see the PILES of FRESH FOOD AND CHEESE!"
+        },
+        "MAKESOUP": {
+            "Body": "You decide to make soup",
+            "Choices": [
+                {
+                    "Text": "Return",
+                    "Target": "SOUP"
+                }
+            ]
+        }
+    }
+}
